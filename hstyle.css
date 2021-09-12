@@ -1,0 +1,100 @@
+html,body{
+    background-color: #fff;
+    font-family: 'Source Sans Pro' , sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 025px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0,0,0,0,10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.wrapper .nav .logo{
+    font-family: serif;
+}
+
+.wrapper .nav .logo .img{
+    width: 60px;
+}
+
+.nav .links a{
+    margin-right: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+
+.nav .links .mainlink{
+    color: #e0501b;
+    font-family: 'Cambria';
+}
+
+.nav h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6vw 0 6vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.landingText h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    margin: 0 !important;
+}
+
+.landingText h3{
+    margin: 6px !important;
+    font-size: 22px;
+    opacity: 0.6;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.landingText .btn{
+    width: 128px;
+    margin-top: 30px;
+    padding: 14px 20px 14px 20px;
+    background-color: #2f8be0;
+    border-radius: 45px;
+    text-align: center;
+}
+
+.landingText .btn a{
+    font-size: 21px;
+    color:#fff;
+    font-weight: bold;
+}
+
+.landingImage img{
+    width: 40vw;
+}

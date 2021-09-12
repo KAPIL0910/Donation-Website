@@ -1,0 +1,105 @@
+html,body{
+    background-color: #fff;
+    font-family: 'Source Sans Pro' , sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 025px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0,0,0,0,10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.wrapper .nav .logo{
+    font-family: serif;
+}
+.wrapper .nav .logo .img{
+    width: 60px;
+}
+.nav .links a{
+    margin-right: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+.nav .links .mainlink{
+    color: #e0501b;
+    font-family: 'Cambria';
+}
+.nav h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    padding-top: 90px;
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+    align-items: center;
+}
+.content-section .title h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    color: #e0501b;
+}
+.content-section .content h3{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 21px;
+    line-height: 1.5;
+    color: #5d5d5d;
+}
+.content-section .social{
+    margin: 40px 40px;
+}
+.content-section .social i{
+    color: #e0501b;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .social i:hover{
+    color: #a52a2a;
+}
